@@ -34,13 +34,21 @@ nav > a{
     font-weight: 600;
     margin: 1vmin;
 }
+div{
+    background: white;
+    border-radius: 1em;
+    box-shadow: 0 0 1em #0003;
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 90vmin;
+}
 #about{
     min-height: calc(40vh + 2rem);
 }
 #logo{
     float: left;
     height: 40vh;
-    margin: 1rem;
+    margin: 0 1rem;
     max-width: 90vmin;
 }
 #desc{
@@ -48,20 +56,14 @@ nav > a{
     font-size: 1.2rem;
     margin: 1rem;
 }
-#horarios{
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 1vmin #0003;
-    padding: 1rem;
-    width: 90vmin;
-}
 #horarios h2{
     margin: 0;
 }
 .horario{
     background: rgb(144, 11, 14);
+    box-shadow: none;
     box-sizing: border-box;
-    border-radius: 1em;
+    border-radius: .5em;
     color: white;
     margin: .5rem;
     padding: 1em;
